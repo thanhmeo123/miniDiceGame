@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "name": "minidicegame",
   "builds": [
     {
       "src": "build/web-desktop/**",
@@ -8,8 +9,14 @@
   ],
   "routes": [
     {
+      "src": "/assets/(.*)",
+      "headers": {
+        "Cache-Control": "public, max-age=31536000"
+      }
+    },
+    {
       "src": "/(.*)",
-      "dest": "build/web-desktop/$1"
+      "dest": "/index.html"
     }
   ]
 }
