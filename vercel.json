@@ -1,16 +1,10 @@
 {
   "version": 2,
-  "name": "minidicegame",
+  "name": "minidicegame", 
   "builds": [
     {
       "src": "build/web-desktop/**",
       "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "build/web-desktop/index.html"
     }
   ],
   "rewrites": [
