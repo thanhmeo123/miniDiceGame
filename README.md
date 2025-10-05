@@ -32,33 +32,6 @@ Node.js (nếu muốn chạy unit test với Jest)
 2. Chạy trong Cocos Creator
 
   1. Mở Cocos Creator → Open Project → chọn thư mục project này.
+  2. Nhấn Play trong Cocos để chạy thử.
 
-  2. Trong Scene chính:
-
-      + Thêm Canvas → gắn component GameManager.ts.
-
-      + Kết nối các UI node:
-       
-      + balanceLabel (Label hiện số dư)
-       
-      + resultLabel (Label hiện trạng thái thắng/thua)
-       
-      + diceLabel (Label hiện 3 số xúc xắc)
-       
-      + amountInput (EditBox nhập tiền cược)
-       
-      + totalGuessInput (EditBox nhập tổng khi cược kiểu TOTAL)
-       
-      + rollButton (Button bấm để gieo xúc xắc)
-
-    - Thêm các nút (Button) và gán event:
-
-      + Bet Tài → placeBetTai()
-
-      + Bet Xỉu → placeBetXiu()
-
-      + Bet Tổng → placeBetTotal()
-
-      + Roll → onRoll()
-
-Nhấn Play trong Cocos để chạy thử.
+3. Web đã được tích hợp trong file index.html (Live Server) có thể chạy ở máy sau khi clone src về máy.
