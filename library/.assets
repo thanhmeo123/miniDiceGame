@@ -1,0 +1,24 @@
+{
+    "version": "1.0.1",
+    "data": {
+        "paths": [
+            "resources",
+            "scripts",
+            "scripts\\core",
+            "scripts\\ui",
+            "Main.scene",
+            "scripts\\core\\DiceService.ts",
+            "scripts\\core\\HistoryManager.ts",
+            "scripts\\core\\models.ts",
+            "scripts\\core\\RandomService.ts",
+            "scripts\\core\\ResultCalculator.ts",
+            "scripts\\core\\RoundManager.ts",
+            "scripts\\core\\ScoreManager.ts",
+            "scripts\\ui\\AudioManager.ts",
+            "scripts\\ui\\BettingPanel.ts",
+            "scripts\\ui\\DiceView.ts",
+            "scripts\\ui\\GameManager.ts",
+            "scripts\\ui\\HistoryView.ts"
+        ]
+    }
+}

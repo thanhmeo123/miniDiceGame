@@ -1,17 +1,4 @@
-# Cocos Creator 3D Project
-library/
-temp/
-local/
-profiles/
-native/
-settings/
 
-# Build các platform khác (CHỈ giữ web-desktop)
-build/web-mobile/
-build/android/
-build/ios/
-build/windows/
-build/mac/
 
 # NPM
 node_modules/

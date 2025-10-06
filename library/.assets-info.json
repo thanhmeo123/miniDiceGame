@@ -1,0 +1,125 @@
+{
+  "version": "1.0.1",
+  "map": {
+    "resources.meta": {
+      "time": 1759605547297.703
+    },
+    "scripts.meta": {
+      "time": 1759605547298.7239
+    },
+    "scripts\\ui.meta": {
+      "time": 1759605547300.7239
+    },
+    "scripts\\ui\\AudioManager.ts.meta": {
+      "time": 1759605547301.7239
+    },
+    "scripts\\ui\\BettingPanel.ts.meta": {
+      "time": 1759605547301.7239
+    },
+    "scripts\\ui\\DiceView.ts.meta": {
+      "time": 1759605547301.7239
+    },
+    "scripts\\ui\\GameManager.ts.meta": {
+      "time": 1759605547303.0366
+    },
+    "scripts\\ui\\HistoryView.ts.meta": {
+      "time": 1759605547303.0366
+    },
+    "resources": {
+      "time": 1759501562825.8538,
+      "uuid": "798ae7c5-fe11-45ac-9f32-411b6cba6092"
+    },
+    "scripts": {
+      "time": 1759605547301.7239,
+      "uuid": "6a32385a-128d-4c7f-966e-8c15c6822edc"
+    },
+    "scripts\\ui": {
+      "time": 1759605547303.0366,
+      "uuid": "3c22623e-9852-479f-98e9-aaa78a331af8"
+    },
+    "scripts\\ui\\AudioManager.ts": {
+      "time": 1759605547301.7239,
+      "uuid": "2d1c7f57-8a76-42dd-b86a-2e7dd0709f9f"
+    },
+    "scripts\\ui\\BettingPanel.ts": {
+      "time": 1759605547301.7239,
+      "uuid": "32c1fbf5-620b-4da7-a04c-e267abc200fe"
+    },
+    "scripts\\ui\\DiceView.ts": {
+      "time": 1759605547301.7239,
+      "uuid": "4484ad3d-e792-42e6-b0b8-66102bf72e4d"
+    },
+    "scripts\\ui\\GameManager.ts": {
+      "time": 1759680226833.171,
+      "uuid": "799c32ef-1603-4487-b64f-04d9c495cfe0"
+    },
+    "scripts\\ui\\HistoryView.ts": {
+      "time": 1759605547303.0366,
+      "uuid": "d2d65dea-1e2d-4f85-b348-c8083cb86247"
+    },
+    "Main.scene.meta": {
+      "time": 1759605547297.703
+    },
+    "Main.scene": {
+      "time": 1759681119884.3586,
+      "uuid": "500d8454-bc04-4aff-a6a0-7faca9c268b3"
+    },
+    "scripts\\core.meta": {
+      "time": 1759605547298.7239
+    },
+    "scripts\\core\\DiceService.ts.meta": {
+      "time": 1759605547298.7239
+    },
+    "scripts\\core\\HistoryManager.ts.meta": {
+      "time": 1759605547299.7239
+    },
+    "scripts\\core\\models.ts.meta": {
+      "time": 1759605547300.7239
+    },
+    "scripts\\core\\RandomService.ts.meta": {
+      "time": 1759605547299.7239
+    },
+    "scripts\\core\\ResultCalculator.ts.meta": {
+      "time": 1759605547299.7239
+    },
+    "scripts\\core\\RoundManager.ts.meta": {
+      "time": 1759605547300.7239
+    },
+    "scripts\\core\\ScoreManager.ts.meta": {
+      "time": 1759605547300.7239
+    },
+    "scripts\\core": {
+      "time": 1759605547300.7239,
+      "uuid": "8193c664-11ac-43f8-ad6d-c9252304e96c"
+    },
+    "scripts\\core\\DiceService.ts": {
+      "time": 1759605547298.7239,
+      "uuid": "86b0d8d2-7970-4c0d-93fc-a848eb5cd0c2"
+    },
+    "scripts\\core\\HistoryManager.ts": {
+      "time": 1759605547298.7239,
+      "uuid": "213e9db9-0641-49ec-a5e5-0c4faf907c05"
+    },
+    "scripts\\core\\models.ts": {
+      "time": 1759605547300.7239,
+      "uuid": "43810ad8-d7ce-449c-8965-24ff2ec0256e"
+    },
+    "scripts\\core\\RandomService.ts": {
+      "time": 1759605547299.7239,
+      "uuid": "103e7fa5-5fa9-4b16-ad2e-18f9ecdab9b4"
+    },
+    "scripts\\core\\ResultCalculator.ts": {
+      "time": 1759605547299.7239,
+      "uuid": "65016fd9-6c69-495c-999c-d993cfc63eea"
+    },
+    "scripts\\core\\RoundManager.ts": {
+      "time": 1759605547300.7239,
+      "uuid": "68ecea6a-4793-4739-9764-7e6607ee4f2f"
+    },
+    "scripts\\core\\ScoreManager.ts": {
+      "time": 1759605547300.7239,
+      "uuid": "4aba9512-4b19-48fd-84d4-4d4d60da6178"
+    }
+  },
+  "missing": {}
+}

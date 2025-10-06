@@ -1,0 +1,1937 @@
+{
+  "modules": {
+    "cce:/internal/x/cc": {
+      "mTimestamp": 9491.5738,
+      "chunkId": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b",
+      "imports": [
+        {
+          "value": "cce:/internal/x/cc-fu/2d",
+          "resolved": "__unresolved_0",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 14
+            },
+            "end": {
+              "line": 1,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/sorting",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 14
+            },
+            "end": {
+              "line": 2,
+              "column": 45
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/affine-transform",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 14
+            },
+            "end": {
+              "line": 3,
+              "column": 54
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/animation",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 14
+            },
+            "end": {
+              "line": 4,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/audio",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 14
+            },
+            "end": {
+              "line": 5,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/base",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 14
+            },
+            "end": {
+              "line": 6,
+              "column": 42
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/custom-pipeline",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 14
+            },
+            "end": {
+              "line": 7,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/dragon-bones",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 14
+            },
+            "end": {
+              "line": 8,
+              "column": 50
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/gfx-webgl",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 14
+            },
+            "end": {
+              "line": 9,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/gfx-webgl2",
+          "resolved": "__unresolved_9",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 14
+            },
+            "end": {
+              "line": 10,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/graphics",
+          "resolved": "__unresolved_10",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 14
+            },
+            "end": {
+              "line": 11,
+              "column": 46
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/intersection-2d",
+          "resolved": "__unresolved_11",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 14
+            },
+            "end": {
+              "line": 12,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/mask",
+          "resolved": "__unresolved_12",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 14
+            },
+            "end": {
+              "line": 13,
+              "column": 42
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/particle-2d",
+          "resolved": "__unresolved_13",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 14
+            },
+            "end": {
+              "line": 14,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-2d-box2d",
+          "resolved": "__unresolved_14",
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 14
+            },
+            "end": {
+              "line": 15,
+              "column": 54
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/physics-2d-framework",
+          "resolved": "__unresolved_15",
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 14
+            },
+            "end": {
+              "line": 16,
+              "column": 58
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/profiler",
+          "resolved": "__unresolved_16",
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 14
+            },
+            "end": {
+              "line": 17,
+              "column": 46
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/rich-text",
+          "resolved": "__unresolved_17",
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 14
+            },
+            "end": {
+              "line": 18,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/spine",
+          "resolved": "__unresolved_18",
+          "loc": {
+            "start": {
+              "line": 19,
+              "column": 14
+            },
+            "end": {
+              "line": 19,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/tiled-map",
+          "resolved": "__unresolved_19",
+          "loc": {
+            "start": {
+              "line": 20,
+              "column": 14
+            },
+            "end": {
+              "line": 20,
+              "column": 47
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/tween",
+          "resolved": "__unresolved_20",
+          "loc": {
+            "start": {
+              "line": 21,
+              "column": 14
+            },
+            "end": {
+              "line": 21,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/ui",
+          "resolved": "__unresolved_21",
+          "loc": {
+            "start": {
+              "line": 22,
+              "column": 14
+            },
+            "end": {
+              "line": 22,
+              "column": 40
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/video",
+          "resolved": "__unresolved_22",
+          "loc": {
+            "start": {
+              "line": 23,
+              "column": 14
+            },
+            "end": {
+              "line": 23,
+              "column": 43
+            }
+          }
+        },
+        {
+          "value": "cce:/internal/x/cc-fu/webview",
+          "resolved": "__unresolved_23",
+          "loc": {
+            "start": {
+              "line": 24,
+              "column": 14
+            },
+            "end": {
+              "line": 24,
+              "column": 45
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/sorting"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/affine-transform"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/animation"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/audio"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/base"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/custom-pipeline"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/dragon-bones"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl2"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/graphics"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/intersection-2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/mask"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/particle-2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-box2d"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-framework"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/profiler"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/rich-text"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/spine"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/tiled-map"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/tween"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/ui"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/video"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cce:/internal/x/cc-fu/webview"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "cce:/internal/x/prerequisite-imports": {
+      "mTimestamp": 33994.3947,
+      "chunkId": "6d8fd2b0177941b032ddc0733af48a561fb60657",
+      "imports": [
+        {
+          "value": "file:///C:/ProgramData/cocos/editors/Creator/3.8.7/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts",
+          "resolved": "__unresolved_0",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 7
+            },
+            "end": {
+              "line": 4,
+              "column": 146
+            }
+          }
+        },
+        {
+          "value": "file:///C:/ProgramData/cocos/editors/Creator/3.8.7/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 7
+            },
+            "end": {
+              "line": 5,
+              "column": 151
+            }
+          }
+        },
+        {
+          "value": "file:///C:/ProgramData/cocos/editors/Creator/3.8.7/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 7
+            },
+            "end": {
+              "line": 6,
+              "column": 155
+            }
+          }
+        },
+        {
+          "value": "file:///C:/ProgramData/cocos/editors/Creator/3.8.7/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 7
+            },
+            "end": {
+              "line": 7,
+              "column": 152
+            }
+          }
+        },
+        {
+          "value": "file:///C:/ProgramData/cocos/editors/Creator/3.8.7/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 8,
+              "column": 7
+            },
+            "end": {
+              "line": 8,
+              "column": 146
+            }
+          }
+        },
+        {
+          "value": "file:///C:/ProgramData/cocos/editors/Creator/3.8.7/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 7
+            },
+            "end": {
+              "line": 9,
+              "column": 139
+            }
+          }
+        },
+        {
+          "value": "file:///D:/cocos/MiniDiceGame/assets/scripts/core/DiceService.ts",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 7
+            },
+            "end": {
+              "line": 10,
+              "column": 73
+            }
+          }
+        },
+        {
+          "value": "file:///D:/cocos/MiniDiceGame/assets/scripts/core/HistoryManager.ts",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 7
+            },
+            "end": {
+              "line": 11,
+              "column": 76
+            }
+          }
+        },
+        {
+          "value": "file:///D:/cocos/MiniDiceGame/assets/scripts/core/RandomService.ts",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 7
+            },
+            "end": {
+              "line": 12,
+              "column": 75
+            }
+          }
+        },
+        {
+          "value": "file:///D:/cocos/MiniDiceGame/assets/scripts/core/ResultCalculator.ts",
+          "resolved": "__unresolved_9",
+          "loc": {
+            "start": {
+              "line": 13,
+              "column": 7
+            },
+            "end": {
+              "line": 13,
+              "column": 78
+            }
+          }
+        },
+        {
+          "value": "file:///D:/cocos/MiniDiceGame/assets/scripts/core/RoundManager.ts",
+          "resolved": "__unresolved_10",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 7
+            },
+            "end": {
+              "line": 14,
+              "column": 74
+            }
+          }
+        },
+        {
+          "value": "file:///D:/cocos/MiniDiceGame/assets/scripts/core/ScoreManager.ts",
+          "resolved": "__unresolved_11",
+          "loc": {
+            "start": {
+              "line": 15,
+              "column": 7
+            },
+            "end": {
+              "line": 15,
+              "column": 74
+            }
+          }
+        },
+        {
+          "value": "file:///D:/cocos/MiniDiceGame/assets/scripts/core/models.ts",
+          "resolved": "__unresolved_12",
+          "loc": {
+            "start": {
+              "line": 16,
+              "column": 7
+            },
+            "end": {
+              "line": 16,
+              "column": 68
+            }
+          }
+        },
+        {
+          "value": "file:///D:/cocos/MiniDiceGame/assets/scripts/ui/AudioManager.ts",
+          "resolved": "__unresolved_13",
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 7
+            },
+            "end": {
+              "line": 17,
+              "column": 72
+            }
+          }
+        },
+        {
+          "value": "file:///D:/cocos/MiniDiceGame/assets/scripts/ui/BettingPanel.ts",
+          "resolved": "__unresolved_14",
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 7
+            },
+            "end": {
+              "line": 18,
+              "column": 72
+            }
+          }
+        },
+        {
+          "value": "file:///D:/cocos/MiniDiceGame/assets/scripts/ui/DiceView.ts",
+          "resolved": "__unresolved_15",
+          "loc": {
+            "start": {
+              "line": 19,
+              "column": 7
+            },
+            "end": {
+              "line": 19,
+              "column": 68
+            }
+          }
+        },
+        {
+          "value": "file:///D:/cocos/MiniDiceGame/assets/scripts/ui/GameManager.ts",
+          "resolved": "__unresolved_16",
+          "loc": {
+            "start": {
+              "line": 20,
+              "column": 7
+            },
+            "end": {
+              "line": 20,
+              "column": 71
+            }
+          }
+        },
+        {
+          "value": "file:///D:/cocos/MiniDiceGame/assets/scripts/ui/HistoryView.ts",
+          "resolved": "__unresolved_17",
+          "loc": {
+            "start": {
+              "line": 21,
+              "column": 7
+            },
+            "end": {
+              "line": 21,
+              "column": 71
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.7/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.7/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.7/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.7/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.7/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.7/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos/MiniDiceGame/assets/scripts/core/DiceService.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos/MiniDiceGame/assets/scripts/core/HistoryManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos/MiniDiceGame/assets/scripts/core/RandomService.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos/MiniDiceGame/assets/scripts/core/ResultCalculator.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos/MiniDiceGame/assets/scripts/core/RoundManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos/MiniDiceGame/assets/scripts/core/ScoreManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos/MiniDiceGame/assets/scripts/core/models.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos/MiniDiceGame/assets/scripts/ui/AudioManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos/MiniDiceGame/assets/scripts/ui/BettingPanel.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos/MiniDiceGame/assets/scripts/ui/DiceView.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos/MiniDiceGame/assets/scripts/ui/GameManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos/MiniDiceGame/assets/scripts/ui/HistoryView.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/ProgramData/cocos/editors/Creator/3.8.7/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-dof-pass.ts": {
+      "mTimestamp": {
+        "mtime": 1759424835580.9749,
+        "uuid": "11f3130e-c08c-47bb-a209-71d114594e6d"
+      },
+      "chunkId": "f22794b1c95bc92b6e994a97e9b193af020adc12",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 7
+            },
+            "end": {
+              "line": 28,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "cc/env",
+          "loc": {
+            "start": {
+              "line": 30,
+              "column": 23
+            },
+            "end": {
+              "line": 30,
+              "column": 31
+            }
+          }
+        },
+        {
+          "value": "./builtin-pipeline-settings",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 34,
+              "column": 7
+            },
+            "end": {
+              "line": 34,
+              "column": 36
+            }
+          }
+        },
+        {
+          "value": "./builtin-pipeline-pass",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 38,
+              "column": 7
+            },
+            "end": {
+              "line": 38,
+              "column": 32
+            }
+          }
+        },
+        {
+          "value": "./builtin-pipeline",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 45,
+              "column": 7
+            },
+            "end": {
+              "line": 45,
+              "column": 27
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cc/env"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.7/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.7/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.7/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/ProgramData/cocos/editors/Creator/3.8.7/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-pass.ts": {
+      "mTimestamp": {
+        "mtime": 1759424835655.0244,
+        "uuid": "6f94083c-fc92-438b-a15b-a20ec61666c7"
+      },
+      "chunkId": "d980f46bad1521f99cf9b02f6f4709610973859b",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 30,
+              "column": 7
+            },
+            "end": {
+              "line": 30,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "./builtin-pipeline-settings",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 32,
+              "column": 40
+            },
+            "end": {
+              "line": 32,
+              "column": 69
+            }
+          }
+        },
+        {
+          "value": "cc/env",
+          "loc": {
+            "start": {
+              "line": 34,
+              "column": 23
+            },
+            "end": {
+              "line": 34,
+              "column": 31
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.7/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cc/env"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/ProgramData/cocos/editors/Creator/3.8.7/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts": {
+      "mTimestamp": {
+        "mtime": 1759424835667.5242,
+        "uuid": "de1c2107-70c8-4021-8459-6399f24d01c6"
+      },
+      "chunkId": "c9d891290a54ec567f150962e76c6bf9cdf47b3b",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 28,
+              "column": 7
+            },
+            "end": {
+              "line": 28,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "cc/env",
+          "loc": {
+            "start": {
+              "line": 30,
+              "column": 23
+            },
+            "end": {
+              "line": 30,
+              "column": 31
+            }
+          }
+        },
+        {
+          "value": "./builtin-pipeline-types",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 35,
+              "column": 7
+            },
+            "end": {
+              "line": 35,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cc/env"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.7/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/ProgramData/cocos/editors/Creator/3.8.7/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts": {
+      "mTimestamp": {
+        "mtime": 1759424835671.5105,
+        "uuid": "cbf30902-517f-40dc-af90-a550bac27cf1"
+      },
+      "chunkId": "84fdd98491917343dab9e13fe8b5a70bd6a363c2",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 31,
+              "column": 49
+            },
+            "end": {
+              "line": 31,
+              "column": 53
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/ProgramData/cocos/editors/Creator/3.8.7/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts": {
+      "mTimestamp": {
+        "mtime": 1759424835689.577,
+        "uuid": "ff9b0199-ce04-4cfe-86cc-6c719f08d6e4"
+      },
+      "chunkId": "04f62969dc20e2c08fceeca28e5f160f93c57d48",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 29,
+              "column": 7
+            },
+            "end": {
+              "line": 29,
+              "column": 11
+            }
+          }
+        },
+        {
+          "value": "cc/env",
+          "loc": {
+            "start": {
+              "line": 31,
+              "column": 30
+            },
+            "end": {
+              "line": 31,
+              "column": 38
+            }
+          }
+        },
+        {
+          "value": "./builtin-pipeline-types",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 37,
+              "column": 7
+            },
+            "end": {
+              "line": 37,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "external",
+            "specifierOrURL": "cc/env"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/ProgramData/cocos/editors/Creator/3.8.7/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/ProgramData/cocos/editors/Creator/3.8.7/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": {
+      "mTimestamp": {
+        "mtime": 1759424836892.017,
+        "uuid": "b2bd1fa7-8d7c-49c5-a158-df29a6d3a594"
+      },
+      "chunkId": "e099fc7c0597d98bad93ecd30952e1955267ade1",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 220
+            },
+            "end": {
+              "line": 1,
+              "column": 224
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/cocos/MiniDiceGame/assets/scripts/core/DiceService.ts": {
+      "mTimestamp": {
+        "mtime": 1759605547298.7239,
+        "uuid": "86b0d8d2-7970-4c0d-93fc-a848eb5cd0c2"
+      },
+      "chunkId": "caa651c755f836d88c624584f3d0515c51e4263e",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/cocos/MiniDiceGame/assets/scripts/core/HistoryManager.ts": {
+      "mTimestamp": {
+        "mtime": 1759605547298.7239,
+        "uuid": "213e9db9-0641-49ec-a5e5-0c4faf907c05"
+      },
+      "chunkId": "9068addb89680a33256fdbc4ff9aa24bcb18f941",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/cocos/MiniDiceGame/assets/scripts/core/RandomService.ts": {
+      "mTimestamp": {
+        "mtime": 1759605547299.7239,
+        "uuid": "103e7fa5-5fa9-4b16-ad2e-18f9ecdab9b4"
+      },
+      "chunkId": "ca67844926e02f218813c3cfa65d2c2da0cf090c",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/cocos/MiniDiceGame/assets/scripts/core/ResultCalculator.ts": {
+      "mTimestamp": {
+        "mtime": 1759605547299.7239,
+        "uuid": "65016fd9-6c69-495c-999c-d993cfc63eea"
+      },
+      "chunkId": "de6c575b446e8570e465bc530fd50e655f45ba8a",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/cocos/MiniDiceGame/assets/scripts/core/RoundManager.ts": {
+      "mTimestamp": {
+        "mtime": 1759605547300.7239,
+        "uuid": "68ecea6a-4793-4739-9764-7e6607ee4f2f"
+      },
+      "chunkId": "62041d7247ce612f8ac3f3035684dda64f99e6fb",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "./ResultCalculator",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 32
+            },
+            "end": {
+              "line": 5,
+              "column": 52
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos/MiniDiceGame/assets/scripts/core/ResultCalculator.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/cocos/MiniDiceGame/assets/scripts/core/ScoreManager.ts": {
+      "mTimestamp": {
+        "mtime": 1759605547300.7239,
+        "uuid": "4aba9512-4b19-48fd-84d4-4d4d60da6178"
+      },
+      "chunkId": "8bfcd1807c634da2a5c45d91fc09169af5fd1262",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/cocos/MiniDiceGame/assets/scripts/core/models.ts": {
+      "mTimestamp": {
+        "mtime": 1759605547300.7239,
+        "uuid": "43810ad8-d7ce-449c-8965-24ff2ec0256e"
+      },
+      "chunkId": "4f49246416c71a69145199cf92fa84c14c099677",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/cocos/MiniDiceGame/assets/scripts/ui/AudioManager.ts": {
+      "mTimestamp": {
+        "mtime": 1759605547301.7239,
+        "uuid": "2d1c7f57-8a76-42dd-b86a-2e7dd0709f9f"
+      },
+      "chunkId": "574596c2dccfbc59b94545059a38b011b7551b46",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/cocos/MiniDiceGame/assets/scripts/ui/BettingPanel.ts": {
+      "mTimestamp": {
+        "mtime": 1759605547301.7239,
+        "uuid": "32c1fbf5-620b-4da7-a04c-e267abc200fe"
+      },
+      "chunkId": "c6d6435873cb34d8cec8756e9001fe9e8b0d2431",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/cocos/MiniDiceGame/assets/scripts/ui/DiceView.ts": {
+      "mTimestamp": {
+        "mtime": 1759605547301.7239,
+        "uuid": "4484ad3d-e792-42e6-b0b8-66102bf72e4d"
+      },
+      "chunkId": "3594c8862f6c2d7277f00ab2470f10aadc753d3d",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/cocos/MiniDiceGame/assets/scripts/ui/GameManager.ts": {
+      "mTimestamp": {
+        "mtime": 1759680226833.171,
+        "uuid": "799c32ef-1603-4487-b64f-04d9c495cfe0"
+      },
+      "chunkId": "6fffa86cbaeef8ebfb53e6e887efbc9c3da08e49",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 62
+            },
+            "end": {
+              "line": 1,
+              "column": 66
+            }
+          }
+        },
+        {
+          "value": "../core/RandomService",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 30
+            },
+            "end": {
+              "line": 2,
+              "column": 53
+            }
+          }
+        },
+        {
+          "value": "../core/DiceService",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 28
+            },
+            "end": {
+              "line": 3,
+              "column": 49
+            }
+          }
+        },
+        {
+          "value": "../core/ScoreManager",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 29
+            },
+            "end": {
+              "line": 4,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "../core/HistoryManager",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 31
+            },
+            "end": {
+              "line": 5,
+              "column": 55
+            }
+          }
+        },
+        {
+          "value": "../core/RoundManager",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 29
+            },
+            "end": {
+              "line": 6,
+              "column": 51
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos/MiniDiceGame/assets/scripts/core/RandomService.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos/MiniDiceGame/assets/scripts/core/DiceService.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos/MiniDiceGame/assets/scripts/core/ScoreManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos/MiniDiceGame/assets/scripts/core/HistoryManager.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///D:/cocos/MiniDiceGame/assets/scripts/core/RoundManager.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///D:/cocos/MiniDiceGame/assets/scripts/ui/HistoryView.ts": {
+      "mTimestamp": {
+        "mtime": 1759605547303.0366,
+        "uuid": "d2d65dea-1e2d-4f85-b348-c8083cb86247"
+      },
+      "chunkId": "1be56a8db8671c9d93e3d464c4009a0f5b0dd265",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "cce:/internal/code-quality/cr.mjs": {
+      "mTimestamp": 1759680262836,
+      "chunkId": "6a5019a719a9014c047e67aa1cf34453ab8392ce",
+      "imports": [],
+      "type": "esm",
+      "resolutions": []
+    }
+  }
+}
